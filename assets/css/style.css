@@ -147,6 +147,9 @@ header {
 .img-overlay:hover{
   background: transparent;
 }
+#imgs{
+  width: 100%;
+}
 /* box wrap */
 .right2{
   display: flex;
