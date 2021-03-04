@@ -1,5 +1,9 @@
 :root{
-  transition: .9s ease;
+  --transition: .9s ease;
+  --darkbl: #074a58;
+  --white: #fff;
+  --bglight:  rgb(7, 219, 219);
+  --bdbl: #82d1e3;
 }
 body {
     display: flex;
@@ -14,7 +18,7 @@ body {
     padding: 0 1% 0 0;
     /* background-color: #13293d; */
     background-color: rgb(50, 48, 51);
-    color: #fff;
+    color: var(--white);
   }
   
   h1 {
@@ -27,8 +31,8 @@ body {
     width: 180px;
     height: 40px;
     padding: 10px;
-    background-color: rgb(7, 219, 219);
-    border-color: rgb(7, 219, 219);
+    background-color: var(--bglight);
+    border-color: var(--bglight);
     justify-content: flex-end;
     align-items: center;
     border-style: solid;
@@ -47,16 +51,16 @@ body {
     min-width: 300px;
   }
   li{
-    border-bottom: solid rgb(7, 219, 219);
+    border-bottom: solid var(--bglight);
   }
   a {
-    color: rgb(7, 219, 219);
+    color: var(--bglight);
     font-weight: bold;
     text-decoration: none;
   }
   
   a:hover {
-    color: #fff;
+    color: var(--white);
   }
   header ul li{
       list-style-type: none;
@@ -81,11 +85,11 @@ body {
   text-align: right;
   width: 7.7%;
   height: 260px;
-  border-right: solid #82d1e3;
+  border-right: solid var(--bdbl);
   margin: 1%;
   font-weight: bolder;
   font-size: 25px;
-  color: #074a58;
+  color: var(--darkbl);
 }
 .right1{
   padding: 1%;
@@ -107,11 +111,11 @@ body {
   text-align: right;
   width: 9%;
   height: auto;
-  border-right: solid #82d1e3;
+  border-right: solid var(--bdbl);
   margin: 1%;
   font-weight: bolder;
   font-size: 25px;
-  color: #074a58;
+  color: var(--darkbl);
 }
 
 .container2{
@@ -134,7 +138,7 @@ body {
   width: 100%;
 }
 .right2 a{
-  color: #074a58;
+  color: var(--darkbl);
   font-weight: lighter;
   font-size: 12px;
 }
@@ -144,32 +148,23 @@ body {
   position: absolute;
   bottom: 40px;
   left: 0;
-  border: solid #82d1e3;
-  color: #074a58;
+  border: solid var(--bdbl);
+  color: var(--darkbl);
   font-weight: bold;
-  background-color: #82d1e3;
+  background-color: var(--bdbl);
 }
 /* grid box setting */
-/* .wrapper{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 40%;
-  row-gap: 20px;
-  padding-top: 5px;
-  padding-left: 10%;
-} */
 .grid-box{
   /* background: #000 url(https://www.publicdomainpictures.net/pictures/150000/velka/turquoise-ocean-surf-1455644886RRC.jpg); */
   display: flex;
   justify-content: flex-end;
-  border: 5px solid #82d1e3 ;
+  border: 5px solid var(--bdbl) ;
   width: 30%;
   height: 150px;
   margin-top: 20px;
   margin-left: 3.4%;
   position: relative;
   text-align: center;
-  /* color: black; */
 }
 .grid-box:first-child{
   margin-left: 3%;
@@ -188,20 +183,20 @@ Footer{
   text-align: center;
   width: 9.5%;
   height: auto;
-  border-right: solid #82d1e3;
+  border-right: solid var(--bdbl);
   margin: 1%;
   font-weight: bolder;
   font-size: 25px;
-  color: #074a58;
+  color: var(--darkbl);
 }
 
 .contact1{
-  border-bottom: solid #82d1e3;
+  border-bottom: solid var(--bdbl);
   text-align: center;
 }
 .afooter{
-  color: #074a58;
-  transition: .9s ease;
+  color: var(--darkbl);
+  transition: var(--transition);
 }
 .afooter:hover{
   color: rgb(60, 145, 145);
