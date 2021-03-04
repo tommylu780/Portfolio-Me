@@ -212,4 +212,7 @@ Footer{
   .image{
     max-width: 727px;
   }
+  .headbox{
+    justify-content: center;
+  }
 }
