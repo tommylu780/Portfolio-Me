@@ -204,4 +204,12 @@ Footer{
 .afooter:hover{
   color: var(--bdbl);
 }
-
+/* at 768px header and footer change to column and banner image change size */
+@media screen and (max-width: 768px) {
+  Footer, body, header {
+    flex-direction: column;
+  }
+  .image{
+    max-width: 727px;
+  }
+}
