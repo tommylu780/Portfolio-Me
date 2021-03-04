@@ -72,6 +72,12 @@ header {
       list-style-type: none;
   }
 /* main page */
+.image{
+  display: flex;
+  width: 90%;
+  height: 400px;
+  padding-left: 5%;
+}
 .container1{
   display: flex;
   padding: 2%;
