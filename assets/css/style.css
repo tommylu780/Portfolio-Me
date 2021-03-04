@@ -215,4 +215,14 @@ Footer{
   .headbox{
     justify-content: center;
   }
+  .box,.box:first-child{
+    width: 100%;
+    flex-direction: column;
+  }
+  .contact{
+    border-right: none;
+    justify-content: center;
+    padding-left: 44.5%;
+    text-decoration: underline;
+  }
 }
