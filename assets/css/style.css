@@ -215,9 +215,6 @@ Footer{
   Footer, body, header {
     flex-direction: column;
   }
-  .image{
-    max-width: 727px;
-  }
   .headbox{
     justify-content: center;
   }
