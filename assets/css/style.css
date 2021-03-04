@@ -1,3 +1,4 @@
+/* Color setting */
 :root{
   --transition: .9s ease;
   --darkbl: #074a58;
@@ -11,13 +12,12 @@ body {
     line-height: 1.3;
     font-family: sans-serif;
   }
-  
-  header {
+/* Header */
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1% 0 0;
-    /* background-color: #13293d; */
     background-color: rgb(50, 48, 51);
     color: var(--white);
   }
@@ -55,6 +55,7 @@ body {
   li{
     border-bottom: solid var(--bglight);
   }
+  /* Nav bar transition color */
   a {
     color: var(--bglight);
     font-weight: bold;
@@ -66,6 +67,7 @@ body {
     color: var(--white);
     transition: var(--transition);
   }
+  /* Get rid of the dot styled */
   header ul li{
       list-style-type: none;
   }
@@ -120,6 +122,7 @@ body {
   display: flex;
   padding: 2%;
 }
+/* Image overlay and transit color */
 .img-overlay{
   width: 100%;
   height: 100%;
@@ -130,7 +133,7 @@ body {
 .img-overlay:hover{
   background: rgb(192, 194, 180);
 }
-
+/* box wrap */
 .right2{
   display: flex;
   flex-direction: row;
@@ -142,6 +145,7 @@ body {
   font-weight: lighter;
   font-size: 12px;
 }
+/* text box bottom left */
 .bottom-left{
   height: 50px;
   width: 100px;
@@ -155,7 +159,6 @@ body {
 }
 /* box setting */
 .box{
-  /* background: #000 url(https://www.publicdomainpictures.net/pictures/150000/velka/turquoise-ocean-surf-1455644886RRC.jpg); */
   background: #000 url(https://as2.ftcdn.net/jpg/02/84/09/91/500_F_284099186_RzDTdyvW6VVYkzx6uc0Gv3VuNn9posj6.jpg);
   display: flex;
   border: 5px solid var(--bdbl) ;
@@ -189,7 +192,7 @@ Footer{
   font-size: 25px;
   color: var(--darkbl);
 }
-
+/* Footer text setting and transit color */
 .contact1{
   border-bottom: solid var(--bdbl);
   text-align: center;
