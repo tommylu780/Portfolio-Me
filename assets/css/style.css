@@ -57,10 +57,12 @@ body {
     color: var(--bglight);
     font-weight: bold;
     text-decoration: none;
+    transition: var(--transition);
   }
   
   a:hover {
     color: var(--white);
+    transition: var(--transition);
   }
   header ul li{
       list-style-type: none;
@@ -77,7 +79,7 @@ body {
   padding: 2%;
   
 }
-/* 1st div */
+/* About Me */
 .left1{
   padding: 0 20px 0 0;
   display: flex;
@@ -103,7 +105,7 @@ body {
   font-weight: normal;
   font-size: 25px;
 }
-/* Row 2 */
+/* Work */
 .left2{
   padding: 0 10px 0 0;
   display: flex;
@@ -127,6 +129,7 @@ body {
   height: 100%;
   background: rgb(102, 142, 155);
   opacity: .7;
+  transition: var(--transition);
 }
 .img-overlay:hover{
   background: rgb(192, 194, 180);
@@ -153,9 +156,9 @@ body {
   font-weight: bold;
   background-color: var(--bdbl);
 }
-/* grid box setting */
-.grid-box{
-  /* background: #000 url(https://www.publicdomainpictures.net/pictures/150000/velka/turquoise-ocean-surf-1455644886RRC.jpg); */
+/* box setting */
+.box{
+  background: #000 url(https://www.publicdomainpictures.net/pictures/150000/velka/turquoise-ocean-surf-1455644886RRC.jpg);
   display: flex;
   justify-content: flex-end;
   border: 5px solid var(--bdbl) ;
@@ -166,7 +169,7 @@ body {
   position: relative;
   text-align: center;
 }
-.grid-box:first-child{
+.box:first-child{
   margin-left: 3%;
   width: 65%;
   height: 300px;
@@ -199,6 +202,6 @@ Footer{
   transition: var(--transition);
 }
 .afooter:hover{
-  color: rgb(60, 145, 145);
+  color: var(--bdbl);
 }
 
