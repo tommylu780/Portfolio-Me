@@ -10,7 +10,8 @@ The page is updated from the last homework which are designed as grid, make the 
 the link to download resume and show up email, links to facebook, github, and twitter.
 ## Pictures
 A website responsive represent myself
-![portf-start](https://user-images.githubusercontent.com/53459495/109934964-30242500-7d21-11eb-8907-25758fa2b47b.PNG)
-starting the page
-![porft-end](https://user-images.githubusercontent.com/53459495/109934997-3a462380-7d21-11eb-92bf-e2227a942571.PNG)
+![new1](https://user-images.githubusercontent.com/53459495/115855586-c4338280-a46e-11eb-9d88-593ea174d7bd.PNG)
+-
+![new2](https://user-images.githubusercontent.com/53459495/115855644-d6adbc00-a46e-11eb-9a0a-f9949ec7cec9.PNG)
 end page!
+![new3](https://user-images.githubusercontent.com/53459495/115855660-dad9d980-a46e-11eb-8a36-5b71e3e923c1.PNG)
