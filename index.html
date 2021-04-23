@@ -1,73 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Document</title>
 </head>
+
 <body>
-  <!-- Name introduce and nav bar -->
+    <!-- Header and nav bar -->
     <header>
         <h1 class="headbox">Tommy Lu</h1>
-          <ul>
-            <li><a href="#about-me">About Me</a></li>
+        <ul>
+            <li><a href="#about">About Me</a></li>
             <li><a href="#work">Work</a></li>
-            <li><a href="#contact-me">Contact Me</a></li>
-            <li><a href="#">Resume</a></li>
-          </ul>
-      </header>
-      <!-- Image banner -->
-      <div>
-        <img class="image" src="./assets/images/banner.PNG">
-      </div>
-      <!-- About Me -->
-      <div class="container1" id="about-me">
-        <div class="left1">About Me</div>
-        <div class="right1">I am a Web Developer currently finishing a Coding Bootcamp at Monash University.
-          I have a Bachelor of IT background at VIT. I want to find more opportunities to learn and work on
-          a variety of web development projects.
-        </div>
-      </div>
-      <!-- Work -->
-      <div class="container2" id="work">
-        <div class="left2">Work</div>
-        <div class="right2">
-          <div class="box">
-            <div class="img-overlay"></div>
-            <img src="./assets/images/surf2.jpg" alt="Alt here" id="imgs">
-            <div class="bottom-left">Surf Report<br> <a>MERN Stack</a></div>
-          </div>
-          <div class="box">
-            <div class="img-overlay"></div>
-            <img src="./assets/images/led.jpg" alt="Alt here" id="imgs">
-            <div class="bottom-left">Led Wall<br> <a>Node/IoT</a></div>
-          </div>
-          <div class="box">
-            <div class="img-overlay"></div>
-            <img src="./assets/images/coding.jpg" alt="Alt here" id="imgs">
-            <div class="bottom-left">Calculator<br> <a>React/JS/CSS</a></div>
-          </div>
-          <div class="box">
-            <div class="img-overlay"></div>
-            <img src="./assets/images/puzzle.jpg" alt="Alt here" id="imgs">
-            <div class="bottom-left">Pastel Puzzle<br> <a>MERN Stack</a></div>
-          </div>
-          <div class="box">
-            <div class="img-overlay"></div>
-            <img src="./assets/images/run.png" alt="Alt here" id="imgs">
-            <div class="bottom-left">Run Buddy<br> <a>HTML/CSS</a></div>
-          </div>
-        </div>
-      </div>
-      <!-- Contact Me -->
-      <footer class="Contact-Me" id="contact-me">
-        <div class="contact">Contact Me</div>
-        <div class="contact1">Phone<br><a class="afooter">0450785568</a></div>
-        <div class="contact1">Email<br><a class="afooter">nhoksun340@gmail.com</a></div>
-        <div class="contact1">Github<br><a class="afooter">tommylu780</a></div>
-        <div class="contact1">Facebook<br><a class="afooter">Tommy Lu</a></div>
-      </footer>
+            <li><a href="#contact">Contact Me</a></li>
+            <li>
+                <a id="resume"></a>
+            </li>
+        </ul>
+    </header>
+    <!-- main -->
+    <div class="container">
+        <main>
+            <div class="wrap">
+                <div class="box">
+                    <div class="img-overlay"></div>
+                    <img src="./assets/images/surf2.jpg" alt="Alt here" id="imgs">
+                    <div class="bottom-left">Surf Report<br> <a>MERN Stack</a></div>
+                </div>
+                <div class="box">
+                    <div class="img-overlay"></div>
+                    <img src="./assets/images/led.jpg" alt="Alt here" id="imgs">
+                    <div class="bottom-left">Led Wall<br> <a>Node/IoT</a></div>
+                </div>
+                <div class="box">
+                    <div class="img-overlay"></div>
+                    <img src="./assets/images/coding.jpg" alt="Alt here" id="imgs">
+                    <div class="bottom-left">Calculator<br> <a>React/JS/CSS</a></div>
+                </div>
+                <div class="box">
+                    <div class="img-overlay"></div>
+                    <img src="./assets/images/puzzle.jpg" alt="Alt here" id="imgs">
+                    <div class="bottom-left">Pastel Puzzle<br> <a>MERN Stack</a></div>
+                </div>
+                <div class="box">
+                    <div class="img-overlay"></div>
+                    <img src="./assets/images/run.png" alt="Alt here" id="imgs">
+                    <div class="bottom-left">Run Buddy<br> <a>HTML/CSS</a></div>
+                </div>
+            </div>
+        </main>
+        <section class="banner">
+            <img src="./assets/images/banner.PNG" alt="banner">
+        </section>
+        <section class="left-text1" id="about">
+            <p>About Me</p>
+        </section>
+        <section class="describe">
+            <p>I am a Web Developer currently finishing a Coding Bootcamp at Monash University. I have a Bachelor of IT background at VIT. I want to find more opportunities to learn and work on a variety of web development projects.</p>
+        </section>
+        <section class="left-text2" id="work">
+            <p>Work</p>
+        </section>
+        <section class="left-text3" id="contact">
+            <p>Contact Me</p>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <div class="contact"><a class="afooter"><i class="fas fa-phone fa-2x"></i><br>0457007780</i></a></div>
+            <div class="contact"><a class="afooter"><i class="fas fa-envelope fa-2x"></i><br>nhoksun340@gmail.com</a></div>
+            <div class="contact">
+                <a id="github"></a>
+            </div>
+            <div class="contact">
+                <a id="facebook"></a>
+            </div>
+            <div class="contact">
+                <a id="twitter"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="./assets/javascript/script.js"></script>
 </body>
+
 </html>
