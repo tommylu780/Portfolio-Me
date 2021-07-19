@@ -47,7 +47,7 @@ function getRespo() {
 
                 $(`.bottom-left[data-index=${i}]`).html(`${splRepos[1]}<br><a href='${urlRepos}'>Check Repositry`);
             }
-
+            console.log(repos)
         })
         .catch(function(error) {
             console.log(error)

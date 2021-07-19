@@ -124,7 +124,8 @@ main .wrap {
     text-align: center;
 }
 
-.box:first-child {
+.box:first-child,
+.box:last-child {
     width: 80%;
     height: 300px;
 }
@@ -264,7 +265,8 @@ footer {
         justify-content: center;
     }
     .box,
-    .box:first-child {
+    .box:first-child,
+    .box:last-child {
         width: 80%;
         height: 200px;
         flex-direction: column;
@@ -282,5 +284,6 @@ footer {
     }
     .contact a {
         text-decoration: underline;
+        font-size: 12px;
     }
 }
